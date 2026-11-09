@@ -1,7 +1,8 @@
 name: "Copilot Setup Steps"
 
 # Allows you to test the setup steps from your repository's "Actions" tab
-on: workflow_dispatch
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on: workflow_dispatch
 
 jobs:
   copilot-setup-steps:
